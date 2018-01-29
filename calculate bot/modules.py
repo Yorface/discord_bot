@@ -48,10 +48,10 @@ class simultaneous_equations:
     def __init__(self, ax1, by1, c1, ax2, by2, c2):
         self.ax1=ax1
         self.by1=by1
-        self.c1=-c1
+        self.c1=c1
         self.ax2=ax2
         self.by2=by2
-        self.c2=-c2
+        self.c2=c2
 
     def calculate(self):
         ad=self.ax1*self.ax2
